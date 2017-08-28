@@ -1,0 +1,5 @@
+#user-specific settings
+.idea/
+
+#IntelliJ Idea
+target/
