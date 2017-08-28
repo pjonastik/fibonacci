@@ -3,3 +3,6 @@
 
 #IntelliJ Idea
 target/
+
+#unix's backup created by text editor
+*~
