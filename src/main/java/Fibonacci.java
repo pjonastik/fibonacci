@@ -80,7 +80,7 @@ public class Fibonacci {
         getNumber(toIndex); //check index and compute numbers if necessary
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < toIndex ; i++) {
-            sb.append(computedNums.get(i) + DELIMETER);
+            sb.append(computedNums.get(i)).append(DELIMETER);
         }
         removeLastSpace(sb);
         return sb.toString();
